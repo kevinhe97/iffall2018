@@ -1,0 +1,37 @@
+body {
+	font-family: Meta Pro;
+	color: white;
+	background-color: #1e1e1e;
+	margin: 5em;
+	font-size: .75em;
+	line-height: 1.25em;
+	letter-spacing: .1em;
+
+}
+
+h1:hover{
+	font-size: 2em;
+	color: #cc244e;
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+p:hover{
+	color: #d6f9dc;
+}
+
+strong{
+	color: #42b578;
+}
+
+.description {
+	color: #939c9e;
+	font-style: italic;
+}
+
+.ghost {
+	color: #cc244e;
+}
+
