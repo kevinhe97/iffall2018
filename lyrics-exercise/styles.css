@@ -1,0 +1,35 @@
+body {
+	font-family: Avenir Next;
+	text-align: center;
+	color: #92b8c1;
+	background-color: #2a333c;
+	line-height: 2em;
+	margin-top: 2em;
+}
+
+h1 {
+	color: #bb372b;
+	font-size: 8em;
+	font-style: italic;
+	font-weight: lighter;
+	letter-spacing: .1em;
+}
+
+h2 {
+	color: #bb372b;
+	font-size: 4em;
+	font-style: italic;
+	font-weight: lighter;
+	letter-spacing: .1em;
+}
+
+.type {
+	color: #bb372b;
+	font-weight: bold;
+}
+
+.feather {
+	color: #bb372b;
+	font-style: italic;
+	font-weight: lighter;
+}
