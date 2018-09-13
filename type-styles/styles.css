@@ -1,0 +1,41 @@
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 14pt;
+	margin-left: 4em;
+	margin-bottom: 3em;
+	margin-top: 2em;
+}
+
+h1 {
+	font-size: 36pt;
+	font-weight: bolder;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	color: blue;
+}
+
+#fontweight {
+	font-weight: bolder;
+}
+
+#fontstyle {
+	font-style: italic;
+}
+
+#letterspacing {
+	letter-spacing: 3pt;
+}
+
+#texttransform {
+	text-transform: uppercase;
+}
+
+#textdecoration {
+	text-decoration: underline;
+}
+
