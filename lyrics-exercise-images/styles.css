@@ -1,0 +1,51 @@
+body {
+	font-family: "omnes-pro",sans-serif;
+	text-align: center;
+	color: black;
+	background-color: #e8ecf2;
+	background-image: url(images/feather.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left;
+	background-blend-mode: multiply;
+	background-size: 100%;
+	font-size: 14pt;
+	line-height: 2em;
+	margin-top: 2em;
+}
+
+h1 {
+	color: #bb372b;
+	font-size: 96pt;
+	font-style: oblique;
+	font-weight: lighter;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	stroke-color: red;
+}
+
+h2 {
+	color: #bb372b;
+	font-size: 36pt;
+	font-style: oblique;
+	font-weight: lighter;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+.hook {
+	font-style: italic;
+}
+
+.type {
+	color: #bb372b;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.feather {
+	color: #47b7ef;
+	font-style: ;
+	font-weight: lighter;
+}
