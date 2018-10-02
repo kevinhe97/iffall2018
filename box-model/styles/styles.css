@@ -1,0 +1,78 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+/* header stuff */
+
+header h1, h2 {
+	text-align: center;
+	color: white;
+}
+
+header {
+	padding-top:0px;
+	margin:-54px;
+	height:480px;
+	background-color:;
+}
+
+header h1 {
+	margin-top: 0px
+	margin-bottom: 0px;
+	padding-top: 163px;
+	padding-right: 5px;
+	font-size: 60pt;
+	letter-spacing: 1.5px
+}
+
+header h2 {
+	margin-top: -42px;
+	margin-bottom: 0px;
+	font-size: 22.5pt;
+	padding-top: -20px;
+	letter-spacing: .9px;
+}
+
+/* section 1 stuff */
+
+section.one h1 {
+	margin-top: 0px
+	margin-bottom: 0px;
+	padding-top: 45px;
+	font-size: 30pt;
+	text-align: center;
+}
+
+section.one {
+	margin-top: 54px;
+	height: 715px;
+	padding-right: 100pt;
+	margin-bottom: -33px;
+	width: 100%;
+
+}
+
+div.image {
+	height: 300px;
+	width: 400px;
+	margin-left: 30pt;
+	margin-right: 127px;
+	margin-top: 5pt;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+	float:right;
+	}
+
+section.mainparagraph {
+	font-size: 13pt;
+	padding-left: 180pt;
+	letter-spacing: .17pt;
+	width: 60rem;
+}
+
+section.first {
+	
+}
