@@ -155,6 +155,7 @@ a#btn_apple {
 	text-align: center;
 	font-size: 150px;
 	margin-top: 20px;
+	transition-duration: .5s;
 }
 
 a#btn_apple:hover {
@@ -170,17 +171,18 @@ a#btn_ibm img {
 
 a#btn_ibm:hover {
 	border-bottom: 4px solid navy;
+	transition-duration: .15s;
 }
 
 a#btn_harley {
 	display: inline-block;
 	margin-top: 65px;
 	margin-right: 5px;
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-o-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	transition: all 0.25s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 a#btn_harley:hover {
@@ -190,4 +192,78 @@ a#btn_harley:hover {
 	-o-transform: rotate(720deg);
 	-ms-transform: rotate(720deg);
 	transform: rotate(720deg);
+}
+
+a#btn_mkors {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	border: 2px solid white;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration: .25s;
+}
+
+a#btn_mkors:hover {
+	color: white;
+	background-color: gray;
+	border: 2px solid gray;
+	}
+
+a#btn_ideo {
+	display: inline-block;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 90px;
+	color: #1c387a;
+	font-size: 24pt;
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 4px;
+	transition-duration: .15s;
+}
+
+a#btn_ideo:hover {
+	color: #f4dc04;
+	text-shadow: 4px 4px 20px rgba(200, 200, 200, 1);
+}
+
+a#btn_sardella {
+	display: block;
+	width: 225px;
+	height: 125px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 70px;
+	background-color: #1c387a;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80px;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: 5px;
+	line-height: 125px;
+	transition-duration: .25s;
+}
+
+a#btn_sardella:hover {
+	background-color: #0ce7f7;
+}
+
+a#btn_lyft {
+
+}
+
+a#btn_lyft:hover {
+	
 }
