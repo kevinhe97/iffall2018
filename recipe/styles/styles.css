@@ -1,0 +1,35 @@
+body {
+	font-family: 'Cardo', serif;
+	font-size: 12pt;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.maincontent {
+	margin-top: 300px;
+	margin-left: 25px;
+}
+
+h3 {
+	font-size: 18pt;
+	margin-bottom: 40px;
+}
+
+#heading h1, h2 {
+	text-align: left;
+}
+
+#heading {
+	background-image: url("https://thewoksoflife.com/wp-content/uploads/2014/10/shanghai-cai-fan-08.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100%;
+	height: 250px;
+	top: 0;
+  	/*background: #555;*/
+  	color: #40992c;
+}
+
