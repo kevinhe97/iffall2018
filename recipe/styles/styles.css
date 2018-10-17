@@ -1,6 +1,6 @@
 body {
 	font-family: 'Cardo', serif;
-	font-size: 12pt;
+	font-size: 10pt;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -14,7 +14,7 @@ body {
 
 h3 {
 	color: #992c36;
-	font-size: 18pt;
+	font-size: 14pt;
 	margin-bottom: 40px;
 }
 
@@ -42,14 +42,14 @@ section {
 }
 
 #headimg {
-	height: 480px;
+	height: 240px;
 	margin-left: 25px;
 	top: 0;
 }
 
-ol {
+/*ol {
 	padding-inline-start: 15px;
-}
+}*/
 
 #footerimg {
 
