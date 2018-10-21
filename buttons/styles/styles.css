@@ -485,12 +485,12 @@ a#btn_kittens {
 	display: inline-block;
 	width: 200px;
 	height: 100px;
-	margin-top: 95px;
+	margin-top: 80px;
 	text-decoration: none;
-	color: black;
+	color: #232323;
 	font-family: 'Teko', sans-serif;
-	font-size: 48px;
-	line-height: 40px;
+	font-size: 54px;
+	line-height: 48px;
 }
 a#btn_kittens:hover {
 	transition-duration: .3s;
