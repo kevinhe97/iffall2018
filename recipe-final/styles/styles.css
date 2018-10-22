@@ -1,3 +1,5 @@
+/* core content */
+
 body {
 	font-family: 'Cardo', serif;
 	font-size: 14pt;
@@ -27,6 +29,7 @@ li {
 	margin-bottom: 10px;
 }
 
+/* heading */
 
 #heading h1, h2 {
 	text-align: center;
@@ -52,6 +55,8 @@ li {
 	margin-left: 25px;
 }
 
+/* body */
+
 .optional {
 	font-style: italic;
 }
@@ -68,6 +73,8 @@ ol {
 #steps {
 	padding-bottom: 25px;
 }
+
+/* footer */
 
 #footer{
 	border-top: 4px solid #992c36;
