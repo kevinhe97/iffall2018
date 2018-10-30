@@ -7,14 +7,13 @@ body {
 #fixed-size-grid-items aside {
 	width: 170px;
 	margin: 10px;
-	font-size: .8rem;
+	font-size: 0.8rem;
 }
 
 #fixed-size-grid-items li {
 	display: inline-block;
 	padding: 0;
 	vertical-align: top;
-	font-size: 0.8rem;
 	list-style: none;
 }
 
@@ -23,7 +22,6 @@ body {
 }
 
 #stretchable-grid-items aside {
-	font-size: .8rem;
 	margin: 10%;
 }
 
@@ -32,30 +30,20 @@ body {
 	padding: 0;
 	width: 100%;
 	vertical-align: top;
-	font-size: 0.8rem;
-	list-style: none;
 }
 
 #stretchable-grid-items ul {
 	padding-left: 0;
-	width: 100%;
+	font-size: .8rem;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
 
-@media (min-width: 640px) {
-	body {
-		background-color: #eaf6ff;
-	} 
-
-	h1 {
-		font-size: 2.5rem;
-	}
-
+@media (min-width: 480px) {
 	#stretchable-grid-items li {
-		width: 25%;
+		width: 49%;
 	}
 }
 
@@ -65,8 +53,18 @@ body {
 	}
 }
 
-@media (min-width: 480px) {
+@media  (min-width: 640px) {
+	body {
+		background-color: #eaf6ff;
+	} 
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
 	#stretchable-grid-items li {
-		width: 50%;
+		width: 24%;
 	}
 }
+
+
