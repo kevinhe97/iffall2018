@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+	font-family: henriette, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+body>div {
+	height: 100%;
+	position: relative;
+	background-image: url(../images/irohB-landscape.jpg);
+	background-size: cover;
+	background-position: top right;
+}
+
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+.quote {
+	font-family: henriette, sans-serif;
+	position: absolute;
+	right: 3.5em;
+	top: 10%;
+	color: #fff;
+	max-width: 40%;
+	text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.message {
+	font-size: 1.5em;
+	text-align: right;
+}
+
+.attribution {
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	font-size: 1.25em;
+	text-align: right;
+}
+
+@media (max-width: 700px) {
+	body>div {
+		background-image: url(../images/irohB-portrait.jpg);
+		background-position: center left;
+	}
+
+	.message {
+		font-size: 1.25em;
+	}
+}
+
+/*text-indent: -0.5em;*/
