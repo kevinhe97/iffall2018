@@ -1,0 +1,253 @@
+/*core*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: HelvetiHand; src:url("fonts/HelvetiHand.ttf");
+	font-size: 13pt;
+	color: #fff;
+	background-color: #372D3E;
+}
+
+body>section {
+	padding: 5rem;
+	padding-top: 7.5rem;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 28pt;
+}
+
+h3, h4 {
+	text-align: center;
+}
+
+p {
+	margin-top: 0;
+	width: 95%;
+}
+
+img {
+	width: 100%;
+}
+
+.column1 {
+	flex: 1;
+}
+
+.column2 {
+	flex: 1;
+}
+
+.column3 {
+	flex: 1;
+}
+
+.row {
+	display: flex;
+}
+
+/*header*/
+
+#heading {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 3.5rem;
+	text-align: center;
+	background-color: black;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	z-index: 100000000000;
+}
+
+#heading a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#heading h1{
+	font-family: October Crow; src:url("fonts/October Crow.ttf");
+	text-align: center;
+	margin-top: .75rem;
+}
+
+/*hamburglar*/
+
+#nav #navicon {
+	width: 32.5%;
+}
+
+#nav {
+	position: fixed;
+	top: 0rem;
+	left: .5rem;
+	width: 150px;
+	height: 3.5rem;
+}
+
+#nav button.controls {
+	position: absolute;
+	right: 0;
+	height: 3.5rem;
+	width: 100%;
+	cursor: pointer;
+	background-color: black;
+	border-color: black;
+
+}
+
+#nav.open button.controls {
+	background-color: #372D3E;
+}
+
+#nav button.controls:after {
+	content: "open +";
+	font-family: HelvetiHand; src:url("fonts/HelvetiHand.ttf");
+	font-size: 10pt;
+	color: white;
+}
+
+#nav.open button.controls:after {
+	content: "close -";
+}
+
+#nav .contents {
+	height: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #84381F;
+	color: #fff;
+	font-size: 12pt;
+	transition: all .5s ease;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+#nav.open .contents {
+	display: block;
+	height: 11.5rem;
+	padding: 4.25rem 1rem 2.25rem 1rem;
+	border: 1px solid black;
+}
+
+/*section1 - about*/
+
+#section1 {
+	height: 75rem;
+	padding-top: 7.5rem;
+}
+
+#section1 #video {
+	width: 15rem;
+	height: auto;
+	margin-left: 15rem;;
+}
+
+#about {
+	padding-top: 10rem;
+}
+
+/*section 2 - gameplay*/
+
+#section2 {
+	background-color: #252525;
+	height: 70rem;
+}
+
+#section2 #gameplay .gameplayimg {
+	margin-bottom: 1.5rem;
+}
+
+#section2 #gameplay h2 {
+	text-align: right;
+}
+
+#section2 #gameplay .row .column2 {
+	margin-left: 1.5rem;
+}
+
+/*section 3 - characters*/
+
+#section3 {
+	background-color: #84381F;
+	height: 50rem;
+}
+
+#section3 #characters .characterimg {
+	width: 60%;
+	margin-left: 2.5rem;
+}
+
+#section3 #characters .characterframe {
+	height: 75%;
+	margin-top: 2.5rem;
+	margin-left: 2.5rem;
+}
+
+#section3 #characters .description {
+	margin-top: 3rem;
+	background-color: black;
+	padding: 1.5rem;
+}
+
+#section3 #characters h2 {
+	margin-bottom: 3rem;
+}
+
+#section3 #characters h3 {
+	margin-top: -.25rem;
+	margin-bottom: -1rem;
+}
+
+#section3 #characters .column1 .column1 {
+	margin-bottom: -1.5rem;
+}
+
+/*section 4 - development*/
+
+#section4 {
+	background-color: #252525;
+	height: 60rem;
+}
+
+#section4 #development h2 {
+	text-align: right;
+}
+
+#section4 #development .developmentimg {
+	margin-bottom: 1.5rem;
+}
+
+#section4 #development .column1 .developmentimg {
+	margin: .75rem 0rem;
+}
+
+/*section 5 - other games*/
+
+#section5 {
+	height: 20rem;
+}
+
+#section5 a {
+	text-decoration: none;
+}
+
+#section5 #othergames .gamesimg {
+	width: 95%;
+}
+
+/*footer*/
+
+#footer {
+	border-top: 1px solid #707070;
+	font-size: 10pt;
+	height: 2.5rem;
+	padding-top: 2.5rem;
+}
+
