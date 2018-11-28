@@ -1,10 +1,30 @@
 /*core*/
 
+@font-face {
+  font-family: 'HelvetiHand';
+    src:  url('fonts/HelvetiHand/HelvetiHand.ttf.woff') format('woff'),
+    url('fonts/HelvetiHand/HelvetiHand.ttf.svg#HelvetiHand') format('svg'),
+    url('fonts/HelvetiHand/HelvetiHand.ttf.eot'),
+    url('fonts/HelvetiHand/HelvetiHand.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'October-Crow';
+    src:  url('fonts/OctoberCrow/October-Crow.ttf.woff') format('woff'),
+    url('fonts/OctoberCrow/October-Crow.ttf.svg#October-Crow') format('svg'),
+    url('fonts/OctoberCrow/October-Crow.ttf.eot'),
+    url('fonts/OctoberCrow/October-Crow.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: HelvetiHand; src:url("fonts/HelvetiHand.ttf");
+	font-family: 'HelvetiHand';
 	font-size: 13pt;
 	color: #fff;
 	background-color: #372D3E;
@@ -72,7 +92,7 @@ img {
 }
 
 #heading h1{
-	font-family: October Crow; src:url("fonts/October Crow.ttf");
+	font-family: 'October-Crow';
 	text-align: center;
 	margin-top: .75rem;
 }
@@ -80,14 +100,14 @@ img {
 /*hamburglar*/
 
 #nav #navicon {
-	width: 32.5%;
+	width: 40%;
 }
 
 #nav {
 	position: fixed;
 	top: 0rem;
 	left: .5rem;
-	width: 150px;
+	width: 125px;
 	height: 3.5rem;
 }
 
@@ -108,7 +128,7 @@ img {
 
 #nav button.controls:after {
 	content: "open +";
-	font-family: HelvetiHand; src:url("fonts/HelvetiHand.ttf");
+	font-family: 'HelvetiHand';
 	font-size: 10pt;
 	color: white;
 }
@@ -132,7 +152,7 @@ img {
 #nav.open .contents {
 	display: block;
 	height: 11.5rem;
-	padding: 4.25rem 1rem 2.25rem 1rem;
+	padding: 65px 10px 10px 10px;
 	border: 1px solid black;
 }
 
@@ -144,9 +164,25 @@ img {
 }
 
 #section1 #video {
-	width: 15rem;
-	height: auto;
-	margin-left: 15rem;;
+	text-align: center;
+/*	max-width: 600px;
+	width: 100%;*/
+}
+
+/*#section1 #video .heightcontainer {
+	padding-top: 56.25%;
+	width: 100%;
+	background-color: black;
+	position: relative;
+}*/
+
+#section1 #video iframe {
+	margin: auto;
+	/*position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
 }
 
 #about {
