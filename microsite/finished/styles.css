@@ -1,0 +1,428 @@
+/*core*/
+
+@font-face {
+  font-family: 'HelvetiHand';
+    src:  url('fonts/HelvetiHand/HelvetiHand.ttf.woff') format('woff'),
+    url('fonts/HelvetiHand/HelvetiHand.ttf.svg#HelvetiHand') format('svg'),
+    url('fonts/HelvetiHand/HelvetiHand.ttf.eot'),
+    url('fonts/HelvetiHand/HelvetiHand.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'October-Crow';
+    src:  url('fonts/OctoberCrow/October-Crow.ttf.woff') format('woff'),
+    url('fonts/OctoberCrow/October-Crow.ttf.svg#October-Crow') format('svg'),
+    url('fonts/OctoberCrow/October-Crow.ttf.eot'),
+    url('fonts/OctoberCrow/October-Crow.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'HelvetiHand';
+	font-size: 1.5vw; /*13pt*/
+	color: #fff;
+	background-color: #372D3E;
+}
+
+body>section {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	padding: 5vw;
+	padding-top: 10vw;
+}
+
+h2 {
+	margin-top: -5vw;
+	font-size: 2.5vw; /*26pt*/
+	text-align: left;
+}
+
+h3, h4 {
+	text-align: center;
+}
+
+p {
+	margin-top: 0;
+	width: 95%;
+}
+
+img {
+	width: 100%;
+}
+
+.column1 {
+	flex: 1;
+}
+
+.column2 {
+	flex: 1;
+}
+
+/*.column3 {
+	flex: 1;
+}*/
+
+.row {
+	display: flex;
+}
+
+/*header*/
+
+#heading {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 3.5rem;
+	text-align: center;
+	background-color: black;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.4);
+	z-index: 100000000000;
+}
+
+#heading a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#heading h1{
+	font-family: 'October-Crow';
+	text-align: center;
+	margin-top: .75rem;
+}
+
+/*hamburglar*/
+
+#nav #navicon {
+	width: 40%;
+}
+
+#nav {
+	position: fixed;
+	margin: auto;
+	top: 0.25vw;
+	left: 0.5vw;
+	width: 125px;
+	height: 3.5vw;
+
+}
+
+#nav button.controls {
+	position: absolute;
+	right: 0;
+	height: 3rem;
+	width: 100%;
+	cursor: pointer;
+	background-color: black;
+	border-color: black;
+
+}
+
+#nav.open button.controls {
+	background-color: #372D3E;
+}
+
+#nav button.controls:after {
+	content: "open +";
+	font-family: 'HelvetiHand';
+	font-size: 10pt;
+	color: white;
+}
+
+#nav.open button.controls:after {
+	content: "close -";
+}
+
+#nav .contents {
+	height: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #84381F;
+	color: #fff;
+	font-size: 12pt;
+	transition: all .5s ease;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+#nav.open .contents {
+	display: block;
+	height: 180px;
+	padding: 62px 10px 10px 10px;
+	border: 1px solid black;
+}
+
+/*video*/
+
+#video {
+	max-width: 900px;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+#video .heightcontainer {
+	padding-bottom: 56.25%;
+	width: 100%;
+	height: 0;
+	position: relative;
+}
+
+#video iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+/*section1 - about*/
+
+#section1 #about {
+	padding-top: 2.5vw;
+}
+
+#section1 p {
+	width: 85%;
+}
+
+#section1 #aboutimg {
+	margin-top: -2.5vw;
+}
+
+
+/*section 2 - gameplay*/
+
+#section2 {
+	background-color: #252525;
+}
+
+#section2 #gameplay .gameplayimg {
+	margin-bottom: 1.5vw;
+}
+
+/*#section2 #gameplay h2 {
+	text-align: right;
+}*/
+
+#section2 #gameplay .row {
+	margin-top: .5vw;
+}
+
+#section2 #gameplay .row .column2 {
+	margin-left: 1.5vw;
+}
+
+/*section 3 - characters*/
+
+#section3 {
+	background-color: #84381F;
+}
+
+#section3 #characters .container,
+#section3 #characters .column2{
+	position: relative;
+} 
+
+#section3 #characters .characterimg {
+	width: 23%;
+	text-align: center;
+}
+
+#section3 #characters .characterframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75%;
+	margin-top: -7.5vw;
+	margin-left: 7.5vw;
+	display: none;
+}
+
+#section3 #characters .container{
+	width: 100%;
+	background-color: black;
+	border-radius: 1vw;
+	margin-top: 2.5vw;
+}
+
+#section3 #characters .container .empty {
+	color: transparent;
+	padding: 1.5vw;
+}
+
+#section3 #characters .description {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+	padding: 1.5vw;
+	display: none;
+}
+
+#section3 #characters h2 {
+	margin-bottom: 5vw;
+}
+
+#section3 #characters h3 {
+	margin-top: -.25vw;
+	margin-bottom: -1vw;
+}
+
+/*#section3 .column1,
+#section3 .column2 {
+	margin-bottom: -15vw;
+}*/
+
+/*section 4 - development*/
+
+#section4 {
+	background-color: #252525;
+
+}
+
+/*#section4 #development h2 {
+	text-align: right;
+}*/
+
+#section4 #development .column2{
+	margin-top: .5vw;
+}
+
+#section4 #development .developmentimg {
+	margin-bottom: 3vw;
+	padding-left: 6vw;
+	width: 85%;
+	text-align: right;
+}
+
+
+/*section 5 - other games*/
+
+
+#section5 a {
+	text-decoration: none;
+}
+
+#section5 p {
+	width: 85%;
+}
+
+#section5 #othergames .gamesimg {
+	width: 85%;
+}
+
+/*footer*/
+
+#footer {
+	border-top: 1px solid #707070;
+	font-size: 10pt;
+	height: 1vw;
+	padding-top: 2.5vw;
+}
+
+/*responsive*/
+
+@media (max-width: 768px) {
+
+	body {
+		font-size: 2.5vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+	}
+
+	p {
+		width: 100%;
+	}
+
+	.row {
+		display: block;
+	}
+
+/*	#section2 #gameplay h2 {
+		text-align: left;
+	}
+	#section4 #development h2 {
+		text-align: left;
+	}*/
+
+	#section1 #about .column2 {
+		text-align: center;
+	}
+	#section1 #about #aboutimg {
+		width: 100%;
+		margin-top: 1.5vw;
+	}
+
+	#section2 #gameplay .row {
+		display: flex;
+		text-align: center;
+	}
+	#section2 #gameplay .gameplayimg {
+		width: 100%;
+	}
+
+	#section3 #characters{
+		display: flex;
+	}
+	#section3 #characters .characterframe {
+		text-align: center;
+		margin-top: 2.5vw;
+	}
+
+	#section5 #othergames .row {
+		display: flex;
+		text-align: center;
+		margin-top: 5vw;
+	}
+
+	#footer {
+		font-size: 1vw;
+		height: 1%;
+	}
+	#footer p{
+		width: 95%;
+	}
+
+}
+
+@media (max-width: 425px) {
+	body{
+		font-size: 4vw;
+	}
+
+	h2 {
+		font-size: 5vw;
+	}
+
+	h3 {
+		font-size: 3.5vw;
+	}
+
+	h4 {
+		font-size: 2.5vw;
+	}
+
+	#section3 .empty p {
+		font-size: 2.5vw;
+	}
+
+	#section3 .description p {
+		font-size: 2.5vw;
+	}
+}

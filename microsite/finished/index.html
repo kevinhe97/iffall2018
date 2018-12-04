@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Don't Starve Microsite</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+
+		$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+			$(".controls").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+				$("#nav").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+				console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+			});
+
+			$("#img1").click(function() {
+				$(".description").fadeOut();
+				$("#description1").fadeIn();
+				
+				$(".characterframe").fadeOut()
+				$("#frame1").fadeIn();
+			
+			});
+			$("#img2").click(function() {
+				$(".description").fadeOut();
+				$("#description2").fadeIn();
+				
+				$(".characterframe").fadeOut()
+				$("#frame2").fadeIn();
+			
+			});$("#img3").click(function() {
+				$(".description").fadeOut();
+				$("#description3").fadeIn();
+				
+				$(".characterframe").fadeOut()
+				$("#frame3").fadeIn();
+			
+			});$("#img4").click(function() {
+				$(".description").fadeOut();
+				$("#description4").fadeIn();
+				
+				$(".characterframe").fadeOut()
+				$("#frame4").fadeIn();
+			
+			});
+
+		});
+
+	</script>
+
+
+</head>
+
+<body>
+	<section id="heading">
+		<div id="nav">
+			<button class="controls"><img id="navicon" src="images/backpack.png" alt="Backpack"></button>
+			<div class="contents">
+				<a href="#about">About</a>
+				<a href="#section2">Gameplay</a>
+				<a href="#section3">Characters</a>
+				<a href="#section4">Development</a>
+				<a href="#section5">Other Games</a>
+			</div>
+			
+		</div>
+		<div id="site_title">
+			<h1><a href="">Don't Starve</a></h1>
+		</div>
+	</section>
+
+	<div id="video">
+		<div class="heightcontainer">
+			<iframe width="840" height="472.5" src="https://www.youtube.com/embed/N0QhvmisGWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<section id="section1">
+		<div id="about" class="row">
+			<div class="column1">
+				<h2>About Don't Starve</h2>
+				<p>Don’t Starve is an uncompromising open world survival video game developed by the Canadian indie company Klei Entertainment. The game follows a scientist named Wilson, an intrepid Gentleman Scientist who finds himself in a mysterious wilderness world by a demon and must survive as long as possible. To this end, the player must keep Wilson healthy, fed, and mentally stable as he encounters a variety of surreal, strange, and supernatural dangers and surprises. Wilson must learn to exploit his environment and its inhabitants if he ever hopes to unravel the mysteries of this strange land and hopefully escape and find his way back home.</p>
+			</div>
+			<div class="column2">
+				<img id="aboutimg" src="images/aboutimg.png" alt="Don't Starve">
+			</div>
+		</div>
+	</section>
+
+	<section id="section2">
+		<div id="gameplay" class="row">
+			<div class="column1">
+				<h2>Gameplay</h2>
+				<p>Don’t Starve is an action-adventure game with a randomly generated open world and elements of survival and rogue-like gameplay. Wilson, the protagonist, is the default playable character, however, more characters are unlocked the longer you survive and the more you explore.<br>
+				<br>
+				The goal is to survive as long as possible, and a count of the number of days the player has survived is shown onscreen. The game keeps few records of player progress with the total number of experience points gained and the playable characters unlocked. As is common among rogue-likes, death is permanent, barring the use of several rare or expensive items. <br>
+				<br>
+				The game relies on a day/night cycle that causes meaningful fluctuations in gameplay style. During the day, the player spends most of their time exploring the world: gathering food, firewood, and other resources, discovering crafting recipes to combine available items, and avoiding enemies. With nightfall comes dangerous monsters and an invisible menace that attacks the player when the screen is dark. A player must have a light source or night vision to prevent the darkness from attacking. Crafting from recipes allows the player to build shelter, weapons, and tools like axes. Players can forage and farm plants as well as hunt animals for sustenance. Food can spoil, however, so the player cannot keep it for too long. <br>
+				<br>
+				Death can occur in a variety of ways. The player has three gauges displayed on the game’s head-up display, which respectively track hunger, health, and sanity. Hunger worsens by default, being replenished with food. Sanity decreases during the dusk and night or as a result of specific unpleasant actions, such as robbing graves or fighting monsters; it can be replenished through mentally stimulating activities, such as sleeping, picking flowers, and wearing fashionable clothing. When hunger gets too low, it begins to chip away at health, which will eventually result in the player’s death. A large variety of creatures can attack the player, including giant one-eyed birds, tree monsters, tentacles, and even small frogs will nonetheless try to accost the player and steal from them. Some creatures, such as pig-like creatures often found in tribes, begin as neutral to the player, but the player’s actions may lead them to be allies or hostile foes.
+				</p>
+			</div>
+			<div class="column2">
+				<div class="row">
+					<div class="column1">
+						<img class="gameplayimg" src="images/gameplay1.png" alt="Gameplay1">
+						<img class="gameplayimg" src="images/gameplay2.png" alt="Gameplay2">
+						<img class="gameplayimg" src="images/gameplay3.png" alt="Gameplay2">
+						<img class="gameplayimg" src="images/gameplay4.jpg" alt="Gameplay4">
+					</div>
+					<div class="column2">
+						<img class="gameplayimg" src="images/gameplay6.jpg" alt="Gameplay6">
+						<img class="gameplayimg" src="images/gameplay5.jpg" alt="Gameplay5">
+						<img class="gameplayimg" src="images/gameplay8.jpg" alt="Gameplay8">
+						<img class="gameplayimg" src="images/gameplay9.png" alt="Gameplay9">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="section3">
+		<div id="characters" class="row">
+			<div class="column1">
+				<h2>Characters</h2>
+				<img class="characterimg" src="images/wilson_portrait.png" alt="Wilson Portrait" id="img1">
+				<img class="characterimg" src="images/willow_portrait.png" alt="Willow Portrait" id="img2">	
+				<img class="characterimg" src="images/wolfgang_portrait.png" alt="Wolfgang Portrait" id="img3">
+				<img class="characterimg" src="images/wendy_portrait.png" alt="Wendy Portrait" id="img4">
+				<div class="container">
+					<div class="empty">
+						<h3>The Firestarter</h3>
+						<h4>"Things are so much prettier when they burn."</h4>
+						<p>* Immune to fire damage<br>* Has a sweet lighter<br>* Lights fires when nervous</p>
+					</div>
+					
+					<div class="description" id="description1">
+						<h3>The Gentleman Scientist</h3>
+						<h4>"I will conquer it all with the power of my MIND!"</h4>
+						<p>* Grows a magnificient beard</p>
+					</div>
+					<div class="description" id="description2">
+						<h3>The Firestarter</h3>
+						<h4>"Things are so much prettier when they burn."</h4>
+						<p>* Immune to fire damage<br>* Has a sweet lighter<br>* Lights fires when nervous</p>
+					</div>
+					<div class="description" id="description3">
+						<h3>The Strongman</h3>
+						<h4>"I am mighty! No one is mightier!"</h4>
+						<p>* Gets stronger with a full belly<br>* Is afraid of the dark and monsters</p>
+					</div>
+					<div class="description" id="description4">
+						<h3>The Bereaved</h3>
+						<h4>"Abigail? Come back! I'm not done playing with you."</h4>
+						<p>* Haunted by her twin sister<br>* Comfortable with darkness<br>* Doesn't hit very hard</p>
+					</div>
+				</div>
+			</div>
+			<div class="column2">
+				<img class="characterframe" src="images/wilson.png" alt="Wilson" id="frame1">
+				<img class="characterframe" src="images/willow.png" alt="Willow" id="frame2">
+				<img class="characterframe" src="images/wolfgang.png" alt="Wolfgang" id="frame3">
+				<img class="characterframe" src="images/wendy.png" alt="Wendy" id="frame4">
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="section4">
+		<div id="development" class="row">
+			<div class="column1">
+				<h2>Development</h2>
+				<p>Don’t Starve was developed and published by indie studio Klei Entertainment. The game began development as part of a 48-hour game jam in 2010. The team liked the idea but shelved it until two years later, when they had the time to flesh it out. Full development commenced in 2012. This was during the heat of an industry trend of creating games in which players are dropped into a world with few instructions and a goal of survival. The torch of this movement was held by the 2011 sandbox game Minecraft. Member Kevin Forbes stated in an interview that Minecraft was one of the team’s biggest influences, particularly its exploration elements. However, as the game was conceived as a “weird experiment,” the team’s main goal was to innovate in terms of gameplay and aesthetics, specifically by adding a layer of emphasis on characterization and themes. <br>
+				
+				<br>The game’s dark and supernatural yet cartoonish art style was influenced by the work of filmmaker Tim Burton, to which it has been frequently compared to, and by writers Edward Gorey and H.P. Lovecraft. Forbes noted the team’s ambition of creating something “dark and creepy.” After conception of the basic game setup, Forbes penned a backstory influenced by steampunk and horror, and lead creative director Jeff Agala added comic strip-like art elements. To further the game’s atmosphere of loneliness and directionlessness, Klei decided firmly against multiplayer gameplay. However, in December 2014, after numerous requests, Klei finally released the multiplayer version of the game titled “Don’t Starve Together” on Steam Early Access after an initial closed beta release.</p>
+			</div>
+			<div class="column2">
+				<img class="developmentimg" src="images/development1.jpg" alt="Alpha 1">
+				<img class="developmentimg" src="images/development2.jpg" alt="Alpha 2">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section5">
+		<div id="othergames" class="row">
+			<div class="column1">
+				<h2>Other Games</h2>
+				<p>If you found Don’t Starve interesting, check out Klei Entertainment’s website to learn more and/or purchase the game! You can also check out the downloadable content for Don’t Starve - Reign of Giants, Shipwrecked, and Hamlet. Additionally, if you want to survive and share the game with friends, be sure to check out Don’t Starve Together!</p>
+			</div>
+			<div class="column2">
+				<div class="row">
+					<div class="column1">
+						<a href="https://www.klei.com/games/dont-starve"><img class="gamesimg" src="images/ds.png" alt="Don't Starve"></a>
+					</div>
+					<div class="column2">
+						<a href="https://www.klei.com/games/dont-starve-together"><img class="gamesimg" src="images/dst.png" alt="Don't Starve Together"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div id="sources" class="row">
+			<div class="column1">
+				<p>Written content sourced from Wikipedia. Images found from Google, Klei Enterntainment, and the Don't Starve wiki page. Typeset in HelvetiHand and October Crow.</p>
+			</div>
+			<div class="column2">
+				<p>This page was designed by Kevin He under the creative direction of Tara Wang created in Fall 2018 for Iteraction Foundations at the Sam Fox School of Design & Visual Arts.</p>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
