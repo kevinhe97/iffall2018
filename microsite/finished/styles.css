@@ -274,12 +274,17 @@ img {
 }
 
 #section3 #characters h2 {
-	margin-bottom: 5vw;
+	margin-bottom: 1vw;
 }
 
 #section3 #characters h3 {
 	margin-top: -.25vw;
 	margin-bottom: -1vw;
+}
+
+#section3 #characters h4 {
+	text-align: left;
+	margin-bottom: 5vw;
 }
 
 /*#section3 .column1,
