@@ -8,8 +8,8 @@ body {
 	padding: 0;
 	background-image: url(../images/parchment.jpg);
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-repeat: repeat;
+	width: 100%;
 }
 
 .maincontent {
@@ -44,7 +44,6 @@ li {
 	background-image: url(../images/parchment.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
 	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.4);
 	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.4);
 	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.4);
