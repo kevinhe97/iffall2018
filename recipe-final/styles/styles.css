@@ -9,6 +9,7 @@ body {
 	background-image: url(../images/parchment.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .maincontent {
@@ -43,14 +44,14 @@ li {
 	background-image: url(../images/parchment.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 100%;
 	-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.4);
 	-moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.4);
 	box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.4);
 	width: 100%;
 	margin: auto;
-	position: sticky;
-	position: -webkit-sticky; /* Safari */
-	top: -2px;
+	position: fixed;
+	top: -5px;
 	transition-duration: .3s;
 }
 
@@ -61,6 +62,7 @@ li {
 
 #heading h1 {
 	font-size: 36px;
+	margin-top: 5px;
 	margin-bottom: -25px;
 }
 
@@ -70,11 +72,15 @@ li {
 	/*border-bottom: 4px solid;*/
 }
 
+#topping {
+	text-align: center;
+	height: 375px;
+}
+
 #headimg {
 	height: 240px;
 	top: 0;
-	margin-top: 25px;
-	margin-left: 25px;
+	margin-top: 125px;
 }
 
 /* summary */
